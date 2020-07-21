@@ -1,0 +1,44 @@
+{
+  "name": "gitbook-plugin-theme-coolx",
+  "version": "1.0.0",
+  "description": "A Gitbook theme",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "gitbook": {
+    "properties": {
+      "copyButtons": {
+        "default": true,
+        "title": "Adds buttons to copy the commands",
+        "type": "boolean"
+      },
+      "copyLines": {
+        "default": true,
+        "title": "When displaying code with multiple lines, line numbers will be added",
+        "type": "boolean"
+      },
+      "dragSplitter": {
+        "default": true,
+        "title": "Add a drag-and-drop bar to adjust the width on both sides",
+        "type": "boolean"
+      }
+    }
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinntao/gitbook-plugin-theme-coolx.git"
+  },
+  "keywords": [
+    "gitbook",
+    "theme-coolx",
+    "prism"
+  ],
+  "author": "Xintao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinntao/gitbook-plugin-theme-coolx/issues"
+  },
+  "homepage": "https://github.com/xinntao/gitbook-plugin-theme-coolx#readme"
+}
